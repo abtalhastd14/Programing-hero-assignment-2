@@ -172,6 +172,7 @@ line-height: 19px;
 
 .check{
     max-width: 1470px;
+    height: 750px;
 }
 .main-container{
     display: flex;
@@ -201,7 +202,7 @@ line-height: 19px;
     color: white;
  }
  .btn-hero-2{
-    width: 135px;
+    width: 150px;
     height: 44px;
     border-radius: 10000px;
     border-style: none;
@@ -215,7 +216,93 @@ line-height: 19px;
     gap: 20px;
  }
 
+ .btn-hero{
+    width: 200px;
+    height: 44px;
+    border-radius: 10000px;
+    background: var(--Linear, linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1)));
+    border-style: none;
+    color: #FFFFFF;
+}
 
+
+
+
+
+
+/* main section start */
+.pd{
+    background-color: #1A0B2E;
+    /* margin-top: 130px; */
+    height: 100%;
+    max-width: 100%;
+}
+.pd-content{
+    color: white;
+    margin: 0 auto;
+    width: 900px;
+}
+.pd-content h1{
+    text-align: center;
+    font-style: Bold;
+font-size: 48px;
+font-weight: 700;
+line-height: 58px;
+padding-top: 150px;
+/* margin-top: 180px; */
+}
+
+.pd-content p{
+    font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+margin-top: 10px;
+opacity: 0.6;
+
+}
+.about-spn-1{
+    margin-left: 70px;
+}
+.about-spn-2{
+    margin-left: 180px;
+}
+.about-spn-3{
+    margin-left: 50px;
+    /* margin-bottom: 50px; */
+}
+.hr1{
+border: 1px solid var(--#FFFFFF, rgba(255, 255, 255, 1));
+opacity: 0.1;
+margin-top: 80px;
+}
+.main-card{
+    display: flex;
+    /* margin: 0 auto; */
+    justify-content: center;
+    align-items: center;
+    margin-top: 90px;
+    /* margin-bottom: 100px; */
+    gap: 100px;
+}
+.about-card h3{
+    font-style: Black;
+font-size: 35px;
+font-weight: 900;
+line-height: 58px;
+color: rgb(22, 232, 22);
+}
+.about-card p{
+    font-style: Regular;
+font-size: 16px;
+font-weight: 400;
+line-height: 20px;
+text-align: center;
+color: white;
+}
+.about-card{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
 
 
 @media screen and (max-width:576px) {
@@ -225,4 +312,20 @@ line-height: 19px;
     #hamburger-menu{
         display: inline;
     }
+    .hero-content p{
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .main-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: 0 auto;
+    }
+    .pd-content{
+        width: 100%;
+    }
+    .pd{
+        width: 100%;
+    }
+    
 }
